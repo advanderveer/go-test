@@ -8,4 +8,6 @@ import (
 
 func TestEquals(t *testing.T) {
 	test.Equals(t, 1, 1)
+	test.OkEquals(t, 1)(1, nil)
+
 }
